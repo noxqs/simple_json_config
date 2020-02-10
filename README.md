@@ -7,10 +7,10 @@ cfg.noot="noot"
 cfg['aap']="mies"
 print ("res1:",cfg.noot)
 print ("res2:",cfg['aap'])
-print ("res3:",cfg.aap)```
+print ("res3:",cfg.aap)
 
 autoSave will save after every change. 
 configFile is the name of your config. It will be stored in the same folder as your main python script.
 the variable default holds all the info that will be written if either the file does not exist or the json is invalid.
-
+```
 Hope you like it, easy enough to implement in your project.
