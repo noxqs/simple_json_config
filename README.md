@@ -2,7 +2,8 @@
 This is a plain simple (less than 60 lines) jet powerful json config class, easy to use in your project where you can store all your app settings.
 
 **Examples**:
-```cfg = Simple_json_config(autoSave=True, configFile="myConfig.json", default={'items':{}, 'rois':{}})
+```
+cfg = Simple_json_config(autoSave=True, configFile="myConfig.json", default={'items':{}, 'rois':{}})
 cfg.noot="noot"
 cfg['aap']="mies"
 print ("res1:",cfg.noot)
